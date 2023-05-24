@@ -8,12 +8,12 @@ function generateMD() {
 </h1>
 
 <p align="center">
-   <a href="https://github.com/Xtremilicious/dev-hugs/blob/master/LICENSE">
+   <a href="https://github.com/im-py-dev/dev-hugs/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="DevHugs is released under the MIT license." />
   </a>
-    <a href="https://github.com/Xtremilicious/dev-hugs/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/Xtremilicious/dev-hugs" /></a>
-   <a href="https://github.com/Xtremilicious/dev-hugs/blob/master/CONTRIBUTE.md">
+    <a href="https://github.com/im-py-dev/dev-hugs/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/im-py-dev/dev-hugs" /></a>
+   <a href="https://github.com/im-py-dev/dev-hugs/blob/master/CONTRIBUTE.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
     <a href="https://twitter.com/intent/follow?screen_name=DevHugs">
@@ -27,7 +27,7 @@ DevHugs provides a curated list of project tutorials in which learners build an 
   
 The list has project tutorials on many in-demand languages and technologies including ReactJS, NodeJS, VueJS, Flutter, React Native, .NET Core, Unity, TensorFlow, OpenCV, Keras, and more.
   
-To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtremilicious/dev-hugs/blob/master/CONTRIBUTE.md) for more details :)
+To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/im-py-dev/dev-hugs/blob/master/CONTRIBUTE.md) for more details :)
   
 ## List of Project Tutorials:
 `;

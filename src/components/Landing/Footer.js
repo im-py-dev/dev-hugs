@@ -34,14 +34,14 @@ export default function Footer() {
       <div>© 2022 DevHugs</div>
       <div className="footer-container">
         <a
-          href="https://github.com/Xtremilicious/dev-hugs/blob/master/README.md"
+          href="https://github.com/im-py-dev/dev-hugs/blob/master/README.md"
           className="footer-content"
           target="_blank"
         >
           About
         </a>
         <a
-          href="https://github.com/Xtremilicious/dev-hugs/blob/master/CONTRIBUTE.md"
+          href="https://github.com/im-py-dev/dev-hugs/blob/master/CONTRIBUTE.md"
           className="footer-content mobile"
           target="_blank"
         >

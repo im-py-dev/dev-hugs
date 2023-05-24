@@ -1,6 +1,6 @@
 ---
 author: Nilarjun Das
-author_image: /static/images/profiles/Xtremilicious.jpg
+author_image: /static/images/profiles/im-py-dev.jpg
 date: '2020-04-05T07:15:32.623Z'
 hero_image: /static/images/posts/what_is_DevHugs.svg
 title: 'What is DevHugs - Project-Based Learning?'
@@ -22,7 +22,7 @@ The list has project tutorials on many in-demand languages and technologies incl
 
 This project is community-driven. Feel free to open an issue (or even better, send a Pull Request) for expanding this list of awesome project tutorials. Contributions are very much welcome.
 
-GitHub: https://github.com/Xtremilicious/dev-hugs
+GitHub: https://github.com/im-py-dev/dev-hugs
 
 
 

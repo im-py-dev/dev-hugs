@@ -137,7 +137,7 @@ class Navbar extends Component {
           </Link>
 
           <a
-            href="https://github.com/Xtremilicious/dev-hugs"
+            href="https://github.com/im-py-dev/dev-hugs"
             target="_blank"
             className="m-github"
           >
@@ -162,7 +162,7 @@ class Navbar extends Component {
           </Link> */}
 
           <a
-            href="https://github.com/Xtremilicious/dev-hugs"
+            href="https://github.com/im-py-dev/dev-hugs"
             target="_blank"
           >
             <div className="nav-component gt-container">

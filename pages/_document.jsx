@@ -59,17 +59,18 @@ export default class MyDocument extends Document {
 		async={true}
 		src="https://w.appzi.io/w.js?token=duILS"
 		/>
-		<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="impydev" data-description="Support me on Buy me a coffee!" data-message="Buy Me a Coffee? 🤔" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"/>
+		<script async={true} data-name="BMC-Widget" data-cfasync="false" 
+		src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="impydev" data-description="Support me on Buy me a coffee!" data-message="Buy Me a Coffee? 🤔" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"/>
 
-		<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-		<script>
+		<script async={true} src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+		<script async={true}>
 		  {`
-		  kofiWidgetOverlay.draw('impydev', {
-			'type': 'floating-chat',
-			'floating-chat.donateButton.text': 'Support me',
-			'floating-chat.donateButton.background-color': '#d9534f',
-			'floating-chat.donateButton.text-color': '#fff'
-		  });
+kofiWidgetOverlay.draw('impydev', {
+'type': 'floating-chat',
+'floating-chat.donateButton.text': 'Support me',
+'floating-chat.donateButton.background-color': '#d9534f',
+'floating-chat.donateButton.text-color': '#fff'
+});
 		  `}
 		</script>
 

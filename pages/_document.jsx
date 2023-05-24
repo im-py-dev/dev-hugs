@@ -59,7 +59,9 @@ export default class MyDocument extends Document {
 		async={true}
 		src="https://w.appzi.io/w.js?token=duILS"
 		/>
-		<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="impydev" data-description="Support me on Buy me a coffee!" data-message="Buy Me a Coffee? 🤔" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"/>
+		/*
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="impydev" data-description="Support me on Buy me a coffee!" data-message="Buy Me a Coffee? 🤔" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"/>
+*/
 
 		<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 		<script

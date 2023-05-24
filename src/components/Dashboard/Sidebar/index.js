@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { useState } from "react";
+import React, { Component, useState } from "react";
 import styled from "styled-components";
 
 import CategoryInfo from "./CategoryInfo";
@@ -21,12 +20,12 @@ const SidebarWrapper = styled.div`
 `;
 
 export default class Sidebar extends Component {
-  const [currentYear] = useState(new Date().getFullYear());
   render() {
+    const currentYear = new Date().getFullYear();
     return (
       <SidebarWrapper>
-        <CategoryInfo  slug={this.props.slug} color={this.props.color}/>
-        <Categories slug={this.props.slug} url={this.props.url} color={this.props.color}/>
+        <CategoryInfo slug={this.props.slug} color={this.props.color} />
+        <Categories slug={this.props.slug} url={this.props.url} color={this.props.color} />
         <div className="footer">© {currentYear} DevHugs</div>
       </SidebarWrapper>
     );

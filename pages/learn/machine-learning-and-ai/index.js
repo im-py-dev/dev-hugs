@@ -14,7 +14,7 @@ class machineLearningAI extends Component {
     return (
       <div>
         <Head>
-          <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
+          <meta name="DevHugs" content="Learn to Code by Creating Projects" />
           <meta
             name="description" content="Learn about machine learning and artificial intelligence using Python, NumPy, Pandas, SciKit, Tensorflow and more using the project based learning approach."
           />
@@ -23,7 +23,7 @@ class machineLearningAI extends Component {
             content="project, tutorial, learn code by doing, project based learning, learn code free, machine learning, artificial intelligence, ai, ml, deep learning"
           />
           {/* <!--Title--> */}
-          <title>Learn Machine Learning and AI | ProjectLearn</title>
+          <title>Learn Machine Learning and AI | DevHugs</title>
         </Head>
         <Layout url={`machine-learning-and-ai`} slug={`ml-ai`} title={`Machine Learning & AI`} color='--theme-blue'/>
       </div>

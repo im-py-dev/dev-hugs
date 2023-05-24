@@ -14,7 +14,7 @@ class gameDevelopment extends Component {
     return (
       <div>
         <Head>
-          <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
+          <meta name="DevHugs" content="Learn to Code by Creating Projects" />
           <meta
             name="description" content="Learn how to create video games using C#, Python, JavaScript, OpenGL, Unity and more using the project based learning approach."
           />
@@ -23,7 +23,7 @@ class gameDevelopment extends Component {
             content="project, tutorial, learn code by doing, project based learning, learn code free, game development"
           />
           {/* <!--Title--> */}
-          <title>Learn Game Development | ProjectLearn</title>
+          <title>Learn Game Development | DevHugs</title>
         </Head>
         <Layout url={`game-development`} slug={`game-dev`} title={`Game Development`} color='--theme-yellow'/>
       </div>

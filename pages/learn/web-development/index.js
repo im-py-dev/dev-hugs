@@ -14,7 +14,7 @@ class webDevelopment extends Component {
     return (
       <div style={{background: "black"}}>
         <Head>
-          <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
+          <meta name="DevHugs" content="Learn to Code by Creating Projects" />
           <meta
             name="description"
             content="Learn how to create web applications using HTML, CSS, JavaScript, React and more using the project based learning approach."
@@ -24,7 +24,7 @@ class webDevelopment extends Component {
             content="project, tutorial, learn code by doing, project based learning, learn code free, web development, javascript, react"
           />
           {/* <!--Title--> */}
-          <title>Learn Web Development | ProjectLearn</title>
+          <title>Learn Web Development | DevHugs</title>
         </Head>
         <Layout url={`web-development`} slug={`web-dev`} title={`Web Development`} color='--theme-green'/>
       </div>

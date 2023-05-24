@@ -121,8 +121,8 @@ class Navbar extends Component {
     return (
       <NavWrapper>
         <div className="pl-branding">
-          {/* <img src={plLogo} alt="ProjectLearn Logo" className="pl-logo" /> */}
-          <h1 className="pl-title">ProjectLearn.io</h1>
+          {/* <img src={plLogo} alt="DevHugs Logo" className="pl-logo" /> */}
+          <h1 className="pl-title">DevHugs.net</h1>
         </div>
         <div className="mobile-nav">
           <Link href="/">
@@ -137,7 +137,7 @@ class Navbar extends Component {
           </Link>
 
           <a
-            href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning"
+            href="https://github.com/Xtremilicious/dev-hugs"
             target="_blank"
             className="m-github"
           >
@@ -162,7 +162,7 @@ class Navbar extends Component {
           </Link> */}
 
           <a
-            href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning"
+            href="https://github.com/Xtremilicious/dev-hugs"
             target="_blank"
           >
             <div className="nav-component gt-container">

@@ -20,7 +20,7 @@ const Index = (props) => {
   return (
     <div style={{ background: "#fafafa" }}>
       <Head>
-        <meta name="ProjectLearn" content="Learn Code By Doing Projects" />
+        <meta name="DevHugs" content="Learn Code By Doing Projects" />
         <meta
           name="description"
           content={`Read awesome articles about all things tech. Discover tech facts, opportunites, project tutorials, guides and much more. It also allows you to contribute and publish posts on anything related to tech.`}
@@ -32,7 +32,7 @@ const Index = (props) => {
       `}
         />
 
-        <title>ProjectLearn Blog - All Things Tech</title>
+        <title>DevHugs Blog - All Things Tech</title>
         {/* <!--Title--> */}
       </Head>
       <BlogWrapper>

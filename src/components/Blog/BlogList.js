@@ -179,7 +179,7 @@ const BlogList = (props) => {
           description: commit description */}
 
         <a
-          href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/new/master?filename=/posts/my_new_post.md&message=My+New+Post%21&description=I+just+finished+writing+a+new+post%21&value=---%0D%0Atitle%3A+A+trip+to+Iceland++++++++++++++<%21--+Your+Post+Title+-->%0D%0Aauthor%3A+%27Watson+%26+Crick+%27+++++++++++++<%21--+Your+Name+-->%0D%0Adate%3A+%272019-07-10T16%3A04%3A44.000Z%27++++++<%21--+Publish+Date.+Format%3A+YYYY-MM-DD+-->%0D%0Ahero_image%3A+%2Fstatic%2Fexample.jpg+++++++<%21--Main+image%2C+store+in+%2Fstatic+folder.+-->%0D%0A---"
+          href="https://github.com/Xtremilicious/dev-hugs/new/master?filename=/posts/my_new_post.md&message=My+New+Post%21&description=I+just+finished+writing+a+new+post%21&value=---%0D%0Atitle%3A+A+trip+to+Iceland++++++++++++++<%21--+Your+Post+Title+-->%0D%0Aauthor%3A+%27Watson+%26+Crick+%27+++++++++++++<%21--+Your+Name+-->%0D%0Adate%3A+%272019-07-10T16%3A04%3A44.000Z%27++++++<%21--+Publish+Date.+Format%3A+YYYY-MM-DD+-->%0D%0Ahero_image%3A+%2Fstatic%2Fexample.jpg+++++++<%21--Main+image%2C+store+in+%2Fstatic+folder.+-->%0D%0A---"
           target="_blank"
         >
           <li className="article create">

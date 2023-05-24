@@ -1,2 +1,2 @@
-Sitemap: https://projectlearn.io/sitemap.xml
+Sitemap: https://DevHugs.net/sitemap.xml
 User-agent: *

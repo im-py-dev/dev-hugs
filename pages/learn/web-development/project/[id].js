@@ -52,7 +52,7 @@ const Project = props => {
   return project != null ? (
     <div>
       <Head>
-        <meta name="ProjectLearn" content="Learn Code By Doing Projects" />
+        <meta name="DevHugs" content="Learn Code By Doing Projects" />
         <meta
           name="description"
           content={`Learn how to build ${article} ${project.title} using ${project.tech.join(
@@ -67,7 +67,7 @@ const Project = props => {
           )}`}
         />
 
-        <title>{`Build ${article} ${project.title} - ${projectCategory} Project | ProjectLearn`}</title>
+        <title>{`Build ${article} ${project.title} - ${projectCategory} Project | DevHugs`}</title>
         {/* <!--Title--> */}
       </Head>
       <ProjectInfo project={project} projectCategory={projectCategory} slug={slug}/>

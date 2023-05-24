@@ -188,8 +188,8 @@ export default function BlogTemplate(props) {
   return (
     <React.Fragment>
       <Head>
-        <meta name="ProjectLearn" content="Learn Code By Doing Projects" />
-        <title>{`${post.frontmatter.title} | ProjectLearn`}</title>
+        <meta name="DevHugs" content="Learn Code By Doing Projects" />
+        <title>{`${post.frontmatter.title} | DevHugs`}</title>
         {/* <!--Title--> */}
       </Head>
       <ArticleWrapper>

@@ -5,7 +5,7 @@ import { projects } from "../../utils/data";
 export const getGitHubStars = () => dispatch => {
   axios
     .get(
-      `https://api.github.com/repos/Xtremilicious/ProjectLearn-Project-Based-Learning`
+      `https://api.github.com/repos/Xtremilicious/dev-hugs`
     )
     .then(res => {
       dispatch({

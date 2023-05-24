@@ -150,10 +150,10 @@ export default function Splash() {
           <Link href="#categories">
             <button className="learn-more">Start Building</button>
           </Link>
-          <Link href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/blob/master/CONTRIBUTE.md" target="_blank" passHref>
+          <Link href="https://github.com/Xtremilicious/dev-hugs/blob/master/CONTRIBUTE.md" target="_blank" passHref>
           <a target="_blank">
           <button className="contribute-btn">
-              Contribute to ProjectLearn
+              Contribute to DevHugs
             </button>
           </a>
            

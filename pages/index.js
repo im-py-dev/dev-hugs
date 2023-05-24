@@ -19,7 +19,7 @@ export default class Landing extends Component {
     return (
       <IndexWrapper>
         <Head>
-          <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
+          <meta name="DevHugs" content="Learn to Code by Creating Projects" />
           <meta
             name="description"
             content="A project-based learning approach in web development, mobile development, game development, machine learning and artificial intelligence. Learn code the right way!"
@@ -29,7 +29,7 @@ export default class Landing extends Component {
             content="project, tutorial, learn code by doing, project based learning, learn code free, web development, app development, game development, machine learning, artificial intelligence"
           />
           {/* <!--Title--> */}
-          <title>ProjectLearn - Learn to Code by Creating Projects</title>
+          <title>DevHugs - Learn to Code by Creating Projects</title>
         </Head>
         <div>
           <Navbar />

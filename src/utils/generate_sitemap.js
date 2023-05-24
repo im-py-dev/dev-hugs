@@ -2,7 +2,7 @@ const sitemap = require("nextjs-sitemap-generator");
 const path = require("path");
 
 sitemap({
-  baseUrl: "https://projectlearn.io",
+  baseUrl: "https://devhugs.net",
   ignoredPaths: ["admin"],
   pagesDirectory: path.join(__dirname, "../../pages"),
   targetDirectory: "out/",

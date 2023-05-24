@@ -31,10 +31,10 @@ export default class MyDocument extends Document {
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
-          <link rel="icon" href="/projectlearn.png" type="image/x-icon" />
+          <link rel="icon" href="/DevHugs.png" type="image/x-icon" />
           <meta name="author" content="Nilarjun Das" />
 
-          <link rel="apple-touch-icon" href="/projectlearn.png" />
+          <link rel="apple-touch-icon" href="/DevHugs.png" />
 
           <link
             rel="preload"
@@ -51,7 +51,7 @@ export default class MyDocument extends Document {
 
           <script
             async={true}
-            src="https://app.appzi.io/bootstrap/bundle.js?token=OQNTh"
+            src="https://w.appzi.io/w.js?token=duILS"
           />
          <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="impydev" data-description="Support me on Buy me a coffee!" data-message="Buy Me a Coffee? 🤔" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 

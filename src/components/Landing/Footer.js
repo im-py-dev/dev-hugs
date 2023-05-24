@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import styled from "styled-components";
 
 const FooterWrapper = styled.div`
@@ -29,9 +30,10 @@ const FooterWrapper = styled.div`
 `;
 
 export default function Footer() {
+  const [currentYear] = useState(new Date().getFullYear());
   return (
     <FooterWrapper>
-      <div>© 2022 DevHugs</div>
+      <div>© {currentYear} DevHugs</div>
       <div className="footer-container">
         <a
           href="https://github.com/im-py-dev/dev-hugs/blob/master/README.md"

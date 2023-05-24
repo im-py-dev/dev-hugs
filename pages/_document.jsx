@@ -50,35 +50,26 @@ export default class MyDocument extends Document {
             crossOrigin=""
           />
 
-          <script
-            async={true}
-            src="https://w.appzi.io/w.js?token=duILS"
-          />
-         <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="impydev" data-description="Support me on Buy me a coffee!" data-message="Buy Me a Coffee? 🤔" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"/>
-
-		<script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
-		<script
-		  dangerouslySetInnerHTML={{
-			__html: `
-			  kofiWidgetOverlay.draw('impydev', {
-				'type': 'floating-chat',
-				'floating-chat.donateButton.text': 'Support me',
-				'floating-chat.donateButton.background-color': '#d9534f',
-				'floating-chat.donateButton.text-color': '#fff'
-			  });
-			`,
-		  }}
-		/>
-
-
           {this.props.styleTags}
         </Head>
         <body>
           <Main />
           <NextScript />
-          {/* <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141654226-3"/>
+		<script
+		async={true}
+		src="https://w.appzi.io/w.js?token=duILS"
+		/>
+		<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="impydev" data-description="Support me on Buy me a coffee!" data-message="Buy Me a Coffee? 🤔" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"/>
 
-          <script dangerouslySetInnerHTML={this.setGoogleTags()} /> */}
+		<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+		<script>
+		kofiWidgetOverlay.draw('impydev', {
+		'type': 'floating-chat',
+		'floating-chat.donateButton.text': 'Support me',
+		'floating-chat.donateButton.background-color': '#d9534f',
+		'floating-chat.donateButton.text-color': '#fff'
+		});
+		</script>
         </body>
       </Html>
     );
